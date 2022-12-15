@@ -1,0 +1,35 @@
+body {
+   color: white;
+   font-size: 17px;
+   text-align: center;
+   background-image: url(./../image/wallpaperbetter.jpg);
+   background-position: top;
+   background-size: 100%;
+   background-repeat: repeat-y;
+}
+img {
+   width: 80%;
+   height: 80%;
+   object-fit: cover;
+   object-position: top center;
+}
+
+figure {
+   display: inline-block;
+   background: linear-gradient(
+      90deg,
+      rgba(195, 187, 9, 0.5603864734299517) 39%,
+      rgba(0, 22, 255, 0.5579710144927537) 100%
+   );
+   box-sizing: border-box;
+   width: 320px;
+   height: 320px;
+   padding: 5px;
+   border: 2px solid rgba(0, 0, 0, 0.308);
+   border-radius: 5%;
+   margin: 20px;
+}
+
+figure:hover {
+   color: blue;
+}
